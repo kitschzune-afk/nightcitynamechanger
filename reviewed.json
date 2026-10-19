@@ -1,0 +1,2178 @@
+[
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "70",
+    "Field": "femaleVariant",
+    "OriginalHash": "4C97631F0CAD8F57F280EC9C19A359BE4931F3540771AE38BC4EF1DB691CB148"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "6820",
+    "Field": "femaleVariant",
+    "OriginalHash": "DE5A6F78116ECA62D7FC5CE159D23AE6B889B365A1739AD2CF36F925A140D0CC"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "7583",
+    "Field": "femaleVariant",
+    "OriginalHash": "1B8EE311460C842AE1076D1540958A44490395587C39A8864033532F66E5D59A"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "7587",
+    "Field": "femaleVariant",
+    "OriginalHash": "E7EDE7C6E988D1C3F36B4627EA4A4ABDEED9B2D32C5224A672140E3F55F60154"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "7619",
+    "Field": "femaleVariant",
+    "OriginalHash": "4393F43F6E3EEC983EF28B9FEE13F3968B6A9419C9D0634F22907D09E29E864E"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "9983",
+    "Field": "femaleVariant",
+    "OriginalHash": "1D36738D4B863A4045ED147B0AA12ECFCB710EF48600AAECA472CD54986428B2"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "9997",
+    "Field": "femaleVariant",
+    "OriginalHash": "E1B0D391DBC3E3DE61E1EC6AB8C9A6D317775EC276AECA19CFCC41BCBFD7ADA7"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10020",
+    "Field": "femaleVariant",
+    "OriginalHash": "54AB1CD89DD4FC44E751E853BF42B85C7E3DD5EEC967C17E64ACE15B37373302"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10586",
+    "Field": "femaleVariant",
+    "OriginalHash": "BDA109A557DC13580C23568692E657E4852D3ECF92D8ACD54B4177EAFCD7757D"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10588",
+    "Field": "femaleVariant",
+    "OriginalHash": "7A7FCE1088775A44E1132A3CB3B47D4B970455E30EBDE558EE2874FD69CE6581"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10601",
+    "Field": "femaleVariant",
+    "OriginalHash": "F90396FEEFD53E898102D5BE806F4829906C462D4677F7A7B80B86D68DA8F3C4"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10632",
+    "Field": "femaleVariant",
+    "OriginalHash": "A539A385A4239206B30E9918F3D6EB35DE60A1E40D537E15BC9A4D231C68D219"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10636",
+    "Field": "femaleVariant",
+    "OriginalHash": "C898EE3D8431615301F000094AED29E4E6DA11121511890D62452ACB7F591624"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10652",
+    "Field": "femaleVariant",
+    "OriginalHash": "63CC61F439EA3C99CCC7CD005E2305CD49B0AB0E179E27E49DAAA03D62CDAFA7"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10660",
+    "Field": "femaleVariant",
+    "OriginalHash": "B171F8003A799ADB5480CEADD1FAAD1F40A0641E03D3C36AC89B194C66C40AB6"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10662",
+    "Field": "femaleVariant",
+    "OriginalHash": "FA8BA0639694F47412BFD94072F14812BD6BB06E4DB5B27B915BDCD0F4CFEC89"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10695",
+    "Field": "femaleVariant",
+    "OriginalHash": "8E7E3EA09C7A23F694013480B957B6F05ECC4D5678A11A2023DDC0F4DFBABAFA"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10695",
+    "Field": "maleVariant",
+    "OriginalHash": "D05E2D5F62F035396DDD39170AE7064FE8179FF6C0BA7B3D4DF7CADBCB44CF98"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10752",
+    "Field": "femaleVariant",
+    "OriginalHash": "4FF3D83CC0F858AF516456B1D6D6DFEB9804DD040438DE7C23670605614FEF4C"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10752",
+    "Field": "maleVariant",
+    "OriginalHash": "B1AF3306BF93E302B08A27B4CC3381D8A91B8FD82DAA60FFB3A4649997CD9226"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "12419",
+    "Field": "femaleVariant",
+    "OriginalHash": "6B3FAF3FF548C210CD7F64B1D4E7C9BC088220EAD45BDC8BE8C44A08438C9DCE"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "14533",
+    "Field": "femaleVariant",
+    "OriginalHash": "FBAAB895F3FCA3388D3596BD3464DDD463BA88B2B8A91F94C07CEA2686AF0249"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "14559",
+    "Field": "femaleVariant",
+    "OriginalHash": "C0F13AD104B863A97B68C66D826EC4D871F158EA9B627DD9681FCA0F5E860565"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "14923",
+    "Field": "femaleVariant",
+    "OriginalHash": "2D0483B09166C257613A52E7D3CAA342AACB7391FCC39638677F8140D9C1B65B"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "15310",
+    "Field": "femaleVariant",
+    "OriginalHash": "36B3BE4B4C4EA12465725D80CDDFE2852D8D2B61B25F63B65BC27ECB2F60F834"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "15526",
+    "Field": "femaleVariant",
+    "OriginalHash": "DE5A6F78116ECA62D7FC5CE159D23AE6B889B365A1739AD2CF36F925A140D0CC"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "15779",
+    "Field": "femaleVariant",
+    "OriginalHash": "F6360AE8D6DA4ADF1B638FE3936A1A15587E55F60370E62B5E551241AAA8EC3E"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "17949",
+    "Field": "femaleVariant",
+    "OriginalHash": "18BD760563003E78C959E098BCEC6DEC9B41497FD79F43E0A029F2B0241A9360"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "17992",
+    "Field": "femaleVariant",
+    "OriginalHash": "B57720650483E843416972B6096E6D254A0D8CC03C5460F28E583EE534515AF1"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "17993",
+    "Field": "femaleVariant",
+    "OriginalHash": "56DAEC47483A6179C72AB1EB4951EAFF5DCA98A4B08741AC6235CC096BB42176"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "17993",
+    "Field": "maleVariant",
+    "OriginalHash": "6AA1E9F4CBB3091201B4377DAC23EE81A7CEA318D07D8781D607CCE4948CA816"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "17995",
+    "Field": "femaleVariant",
+    "OriginalHash": "934FDD34084BDB61285DBAD2EF18C3C26071C0D9E1D0190A21F71551270918E6"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "17999",
+    "Field": "femaleVariant",
+    "OriginalHash": "6950B1CB55D508702D82F09F8F0D2AE922505BC7B62601A441E07954D5877D5E"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "18001",
+    "Field": "femaleVariant",
+    "OriginalHash": "0D764E0892F28656E99E106544EF1963E0B35EDD8659FCD0F100AD2E39D2293B"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "44392",
+    "Field": "femaleVariant",
+    "OriginalHash": "4C97631F0CAD8F57F280EC9C19A359BE4931F3540771AE38BC4EF1DB691CB148"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "48683",
+    "Field": "femaleVariant",
+    "OriginalHash": "DE5A6F78116ECA62D7FC5CE159D23AE6B889B365A1739AD2CF36F925A140D0CC"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "70",
+    "Field": "femaleVariant",
+    "OriginalHash": "4C97631F0CAD8F57F280EC9C19A359BE4931F3540771AE38BC4EF1DB691CB148"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "6820",
+    "Field": "femaleVariant",
+    "OriginalHash": "DE5A6F78116ECA62D7FC5CE159D23AE6B889B365A1739AD2CF36F925A140D0CC"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "7583",
+    "Field": "femaleVariant",
+    "OriginalHash": "1B8EE311460C842AE1076D1540958A44490395587C39A8864033532F66E5D59A"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "7587",
+    "Field": "femaleVariant",
+    "OriginalHash": "E7EDE7C6E988D1C3F36B4627EA4A4ABDEED9B2D32C5224A672140E3F55F60154"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "7619",
+    "Field": "femaleVariant",
+    "OriginalHash": "4393F43F6E3EEC983EF28B9FEE13F3968B6A9419C9D0634F22907D09E29E864E"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "9983",
+    "Field": "femaleVariant",
+    "OriginalHash": "1D36738D4B863A4045ED147B0AA12ECFCB710EF48600AAECA472CD54986428B2"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "9997",
+    "Field": "femaleVariant",
+    "OriginalHash": "E1B0D391DBC3E3DE61E1EC6AB8C9A6D317775EC276AECA19CFCC41BCBFD7ADA7"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10020",
+    "Field": "femaleVariant",
+    "OriginalHash": "54AB1CD89DD4FC44E751E853BF42B85C7E3DD5EEC967C17E64ACE15B37373302"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10586",
+    "Field": "femaleVariant",
+    "OriginalHash": "BDA109A557DC13580C23568692E657E4852D3ECF92D8ACD54B4177EAFCD7757D"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10588",
+    "Field": "femaleVariant",
+    "OriginalHash": "7A7FCE1088775A44E1132A3CB3B47D4B970455E30EBDE558EE2874FD69CE6581"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10601",
+    "Field": "femaleVariant",
+    "OriginalHash": "F90396FEEFD53E898102D5BE806F4829906C462D4677F7A7B80B86D68DA8F3C4"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10632",
+    "Field": "femaleVariant",
+    "OriginalHash": "A539A385A4239206B30E9918F3D6EB35DE60A1E40D537E15BC9A4D231C68D219"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10636",
+    "Field": "femaleVariant",
+    "OriginalHash": "C898EE3D8431615301F000094AED29E4E6DA11121511890D62452ACB7F591624"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10652",
+    "Field": "femaleVariant",
+    "OriginalHash": "63CC61F439EA3C99CCC7CD005E2305CD49B0AB0E179E27E49DAAA03D62CDAFA7"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10660",
+    "Field": "femaleVariant",
+    "OriginalHash": "B171F8003A799ADB5480CEADD1FAAD1F40A0641E03D3C36AC89B194C66C40AB6"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10662",
+    "Field": "femaleVariant",
+    "OriginalHash": "FA8BA0639694F47412BFD94072F14812BD6BB06E4DB5B27B915BDCD0F4CFEC89"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10695",
+    "Field": "femaleVariant",
+    "OriginalHash": "8E7E3EA09C7A23F694013480B957B6F05ECC4D5678A11A2023DDC0F4DFBABAFA"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10695",
+    "Field": "maleVariant",
+    "OriginalHash": "D05E2D5F62F035396DDD39170AE7064FE8179FF6C0BA7B3D4DF7CADBCB44CF98"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10752",
+    "Field": "femaleVariant",
+    "OriginalHash": "4FF3D83CC0F858AF516456B1D6D6DFEB9804DD040438DE7C23670605614FEF4C"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "10752",
+    "Field": "maleVariant",
+    "OriginalHash": "B1AF3306BF93E302B08A27B4CC3381D8A91B8FD82DAA60FFB3A4649997CD9226"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "12419",
+    "Field": "femaleVariant",
+    "OriginalHash": "6B3FAF3FF548C210CD7F64B1D4E7C9BC088220EAD45BDC8BE8C44A08438C9DCE"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "14533",
+    "Field": "femaleVariant",
+    "OriginalHash": "FBAAB895F3FCA3388D3596BD3464DDD463BA88B2B8A91F94C07CEA2686AF0249"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "14559",
+    "Field": "femaleVariant",
+    "OriginalHash": "C0F13AD104B863A97B68C66D826EC4D871F158EA9B627DD9681FCA0F5E860565"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "14923",
+    "Field": "femaleVariant",
+    "OriginalHash": "2D0483B09166C257613A52E7D3CAA342AACB7391FCC39638677F8140D9C1B65B"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "15310",
+    "Field": "femaleVariant",
+    "OriginalHash": "36B3BE4B4C4EA12465725D80CDDFE2852D8D2B61B25F63B65BC27ECB2F60F834"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "15526",
+    "Field": "femaleVariant",
+    "OriginalHash": "DE5A6F78116ECA62D7FC5CE159D23AE6B889B365A1739AD2CF36F925A140D0CC"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "15779",
+    "Field": "femaleVariant",
+    "OriginalHash": "F6360AE8D6DA4ADF1B638FE3936A1A15587E55F60370E62B5E551241AAA8EC3E"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "17949",
+    "Field": "femaleVariant",
+    "OriginalHash": "18BD760563003E78C959E098BCEC6DEC9B41497FD79F43E0A029F2B0241A9360"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "17992",
+    "Field": "femaleVariant",
+    "OriginalHash": "B57720650483E843416972B6096E6D254A0D8CC03C5460F28E583EE534515AF1"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "17993",
+    "Field": "femaleVariant",
+    "OriginalHash": "56DAEC47483A6179C72AB1EB4951EAFF5DCA98A4B08741AC6235CC096BB42176"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "17993",
+    "Field": "maleVariant",
+    "OriginalHash": "6AA1E9F4CBB3091201B4377DAC23EE81A7CEA318D07D8781D607CCE4948CA816"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "17995",
+    "Field": "femaleVariant",
+    "OriginalHash": "934FDD34084BDB61285DBAD2EF18C3C26071C0D9E1D0190A21F71551270918E6"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "17999",
+    "Field": "femaleVariant",
+    "OriginalHash": "6950B1CB55D508702D82F09F8F0D2AE922505BC7B62601A441E07954D5877D5E"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 1,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "18001",
+    "Field": "femaleVariant",
+    "OriginalHash": "0D764E0892F28656E99E106544EF1963E0B35EDD8659FCD0F100AD2E39D2293B"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "44392",
+    "Field": "femaleVariant",
+    "OriginalHash": "4C97631F0CAD8F57F280EC9C19A359BE4931F3540771AE38BC4EF1DB691CB148"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "48683",
+    "Field": "femaleVariant",
+    "OriginalHash": "DE5A6F78116ECA62D7FC5CE159D23AE6B889B365A1739AD2CF36F925A140D0CC"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\mq001\\mq001_01_funeral_aftermath.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1811084284337606656",
+    "Field": "femaleVariant",
+    "OriginalHash": "691053F5F686ECD9F6B827CF415076CB30296D4BA62FB9E3E4FE633EC30F0916"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\mq001\\mq001_01_funeral_aftermath.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1844282496732909568",
+    "Field": "femaleVariant",
+    "OriginalHash": "0ECBAC19E8CB5AE6DC88367C6D1711625721EB6FB33FE336CDF8BD7CCC2BDE9D"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\mq001\\mq001_01_funeral_aftermath.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1862110024051249152",
+    "Field": "femaleVariant",
+    "OriginalHash": "3330B109DD2A2AF439E97563600610DF0C1EF4637B9A277EFF5326F81F292BE6"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\mq001\\mq001_01_funeral_aftermath.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1863159870086500352",
+    "Field": "femaleVariant",
+    "OriginalHash": "9D832E5861A0D10450A730B9503C6B73FFB02035A7596B7A53E8BAFFB2510E01"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\mq001\\mq001_01_funeral_aftermath.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1863184247431680000",
+    "Field": "femaleVariant",
+    "OriginalHash": "B79411D4B337C97E85A548F8B33B6D2FC41200E423584F9ADA980BE45C39683F"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\mq001\\mq001_01_funeral_aftermath.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1863201013440499712",
+    "Field": "femaleVariant",
+    "OriginalHash": "8723878361337061023A26534B22BE1E63D27FD206EF5421CDDD430867410A91"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\mq001\\mq001_03_cliff.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1811385601476022272",
+    "Field": "femaleVariant",
+    "OriginalHash": "55B687AE4CD7910B3308018AA15ECEB9C6B732ABB1F89BAB7CB030ABB644FBA8"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\mq001\\mq001_03_cliff.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1811422682579488768",
+    "Field": "femaleVariant",
+    "OriginalHash": "3F90254F016BF5D82BA027E7D74A7CCAB4513C6B964F40639C13D4F18434DEDE"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\mq001\\mq001_03_cliff.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1863258316642504704",
+    "Field": "femaleVariant",
+    "OriginalHash": "AEA6880918F3FD7F73A986C5FC0B05BAAA9DA060F1F2C823D3D2B82E5BC11F8F"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\mq001\\mq001_03_cliff.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1863272509596815360",
+    "Field": "femaleVariant",
+    "OriginalHash": "917DFFDD933DA9D0407546281E823D508B861F772B0B939888EAD4408AEBBF40"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\mq001\\mq001_03_cliff.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "2238669820146728960",
+    "Field": "femaleVariant",
+    "OriginalHash": "7C61D3A18B2FEC5DABF78EF375365B577E26446F810C7B8D3ADB2FFFC92ABE7B"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\mq001\\mq001_03_cliff.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "2238714786642378752",
+    "Field": "femaleVariant",
+    "OriginalHash": "CE50E37A7E5B0769D1F48193FC1C9BF6A63412D7E58D229AD422E111151B55A1"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\q105\\q105_03a_dollhouse_doll_01.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1553342280657518592",
+    "Field": "femaleVariant",
+    "OriginalHash": "75DAD713A32EB68340ED7E37E02263855E9E9782C0139281E46CCAAFE11B5304"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\q105\\q105_03a_dollhouse_doll_01.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1553342280657518592",
+    "Field": "maleVariant",
+    "OriginalHash": "53F09D45947EB9C8045C94D0413BEB232B46647818A5BF72582D4211C2D24B53"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\q105\\q105_03a_dollhouse_doll_02.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1682332398692032512",
+    "Field": "femaleVariant",
+    "OriginalHash": "31735583F6A76A6088D1BEE89022823228097A7BDA0E911719F3A5A6186E73CA"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\q105\\q105_03a_dollhouse_doll_02.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1682332398692032512",
+    "Field": "maleVariant",
+    "OriginalHash": "E5E837B045333BE6B2A1DA21AFDF0DCB6227078054ECB9E25C0395659E04CC08"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\q115\\q115_02b_ripperdoc_roof.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "3338964912436518912",
+    "Field": "femaleVariant",
+    "OriginalHash": "D5814BE225478D84E0C3515DCAB55CE264D57EC00BF77908DDA47D182A37CD5C"
+  },
+  {
+    "Resource": "base\\localization\\en-us\\subtitles\\quest\\q115\\q115_02b_ripperdoc_roof.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "3338964912436518912",
+    "Field": "maleVariant",
+    "OriginalHash": "FF943FF818F5BEFC4F912D13558005D472F40C529AE815DDD298ECDD6527E42D"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "81435",
+    "Field": "femaleVariant",
+    "OriginalHash": "FB085BE406CF71B5269DE619820A2E4A17049B9B2C8000BDDBB3DE5D9A3630F6"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "82653",
+    "Field": "femaleVariant",
+    "OriginalHash": "DA484E3C920C2BDD1E6D6CF3DE79A14DAD92A67BD4FB069BCBAC107FE8FD812E"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "82775",
+    "Field": "femaleVariant",
+    "OriginalHash": "6C73087119CC21C2BC96457F180AB3EC1312AC54D72D554A0656DFC0DB9C35AA"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "83013",
+    "Field": "femaleVariant",
+    "OriginalHash": "039FDFE6FCB3CD282496DD89B47F20BFC62A98D3C9FBCA33F01DC469CAC3DFE4"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "83015",
+    "Field": "femaleVariant",
+    "OriginalHash": "B772ED117151F9452871AEC077420EEB7118AF044797AEC69DC046818D653338"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "83056",
+    "Field": "femaleVariant",
+    "OriginalHash": "E8212D9E202617BABBEB960AA4E6B55265FE28E2571031DC22A3795DD78246DC"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "83064",
+    "Field": "femaleVariant",
+    "OriginalHash": "E79419796E87245384D8DE76AC0000394BAF09EA41675DF036A37534052F9C0D"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "83216",
+    "Field": "femaleVariant",
+    "OriginalHash": "1ACF31094701C06243BC35CD5E652B69647EA6D5AF6E873C47B0EFB55888D5C2"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "83219",
+    "Field": "femaleVariant",
+    "OriginalHash": "EA6C46959A61C6AA371682B6A9BA0DBBC8EF3E798F09DBF0D99CD67782FB9827"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "83234",
+    "Field": "femaleVariant",
+    "OriginalHash": "CA4C8D68B16BC8DE659F0D5C04C65034F948F59CF361FB2EE7AB8914460D5297"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "81435",
+    "Field": "femaleVariant",
+    "OriginalHash": "FB085BE406CF71B5269DE619820A2E4A17049B9B2C8000BDDBB3DE5D9A3630F6"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "82653",
+    "Field": "femaleVariant",
+    "OriginalHash": "DA484E3C920C2BDD1E6D6CF3DE79A14DAD92A67BD4FB069BCBAC107FE8FD812E"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "82775",
+    "Field": "femaleVariant",
+    "OriginalHash": "6C73087119CC21C2BC96457F180AB3EC1312AC54D72D554A0656DFC0DB9C35AA"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "83013",
+    "Field": "femaleVariant",
+    "OriginalHash": "039FDFE6FCB3CD282496DD89B47F20BFC62A98D3C9FBCA33F01DC469CAC3DFE4"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "83015",
+    "Field": "femaleVariant",
+    "OriginalHash": "B772ED117151F9452871AEC077420EEB7118AF044797AEC69DC046818D653338"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "83056",
+    "Field": "femaleVariant",
+    "OriginalHash": "E8212D9E202617BABBEB960AA4E6B55265FE28E2571031DC22A3795DD78246DC"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "83064",
+    "Field": "femaleVariant",
+    "OriginalHash": "E79419796E87245384D8DE76AC0000394BAF09EA41675DF036A37534052F9C0D"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "83216",
+    "Field": "femaleVariant",
+    "OriginalHash": "1ACF31094701C06243BC35CD5E652B69647EA6D5AF6E873C47B0EFB55888D5C2"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "83219",
+    "Field": "femaleVariant",
+    "OriginalHash": "EA6C46959A61C6AA371682B6A9BA0DBBC8EF3E798F09DBF0D99CD67782FB9827"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 2,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "83234",
+    "Field": "femaleVariant",
+    "OriginalHash": "CA4C8D68B16BC8DE659F0D5C04C65034F948F59CF361FB2EE7AB8914460D5297"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\subtitles\\overlays_quest\\mq001\\mq001_01_funeral_aftermath.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1811084284337606656",
+    "Field": "femaleVariant",
+    "OriginalHash": "691053F5F686ECD9F6B827CF415076CB30296D4BA62FB9E3E4FE633EC30F0916"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\subtitles\\overlays_quest\\mq001\\mq001_01_funeral_aftermath.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1844282496732909568",
+    "Field": "femaleVariant",
+    "OriginalHash": "0ECBAC19E8CB5AE6DC88367C6D1711625721EB6FB33FE336CDF8BD7CCC2BDE9D"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\subtitles\\overlays_quest\\mq001\\mq001_01_funeral_aftermath.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1862110024051249152",
+    "Field": "femaleVariant",
+    "OriginalHash": "3330B109DD2A2AF439E97563600610DF0C1EF4637B9A277EFF5326F81F292BE6"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\subtitles\\overlays_quest\\mq001\\mq001_01_funeral_aftermath.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1863159870086500352",
+    "Field": "femaleVariant",
+    "OriginalHash": "9D832E5861A0D10450A730B9503C6B73FFB02035A7596B7A53E8BAFFB2510E01"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\subtitles\\overlays_quest\\mq001\\mq001_01_funeral_aftermath.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1863184247431680000",
+    "Field": "femaleVariant",
+    "OriginalHash": "B79411D4B337C97E85A548F8B33B6D2FC41200E423584F9ADA980BE45C39683F"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\subtitles\\overlays_quest\\mq001\\mq001_01_funeral_aftermath.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1863201013440499712",
+    "Field": "femaleVariant",
+    "OriginalHash": "8723878361337061023A26534B22BE1E63D27FD206EF5421CDDD430867410A91"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\subtitles\\overlays_quest\\q105\\q105_03a_dollhouse_doll_02.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1682332398692032512",
+    "Field": "femaleVariant",
+    "OriginalHash": "31735583F6A76A6088D1BEE89022823228097A7BDA0E911719F3A5A6186E73CA"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\subtitles\\overlays_quest\\q105\\q105_03a_dollhouse_doll_02.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "1682332398692032512",
+    "Field": "maleVariant",
+    "OriginalHash": "E5E837B045333BE6B2A1DA21AFDF0DCB6227078054ECB9E25C0395659E04CC08"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\subtitles\\overlays_quest\\q115\\q115_02b_ripperdoc_roof.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "3338964912436518912",
+    "Field": "femaleVariant",
+    "OriginalHash": "D5814BE225478D84E0C3515DCAB55CE264D57EC00BF77908DDA47D182A37CD5C"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\subtitles\\overlays_quest\\q115\\q115_02b_ripperdoc_roof.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "3338964912436518912",
+    "Field": "maleVariant",
+    "OriginalHash": "FF943FF818F5BEFC4F912D13558005D472F40C529AE815DDD298ECDD6527E42D"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\subtitles\\quest\\q307\\q307_01_pickup.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "3273756108950061056",
+    "Field": "femaleVariant",
+    "OriginalHash": "7A6491950B737534FEF30382A5DEB81D2849DA7E1EC24BA50C6C516F29721264"
+  },
+  {
+    "Resource": "ep1\\localization\\en-us\\subtitles\\quest\\q307\\q307_01_pickup.json",
+    "Category": 0,
+    "Note": "Reviewed against extracted English text and resource/key context on 2026-10-18; not verified in-game.",
+    "Id": "3273756108950061056",
+    "Field": "maleVariant",
+    "OriginalHash": "FBEA0A453111FFBF1A5217221B7409E10FDCC080838492C9475891E14397BF69"
+  },
+  {
+    "OriginalHash": "FC64A29305AE5652961D7E02300730DE6F10177C325D0724BF318F3752CC9EFF",
+    "Id": "15810",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "2BE65B3DCCB325323E24182C4574A58E8E07BF435362C27D796816296436414F",
+    "Id": "15810",
+    "Field": "maleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "8DB77EA01F3CA9B10266D898221C699CBF333874D7F17094288FA281523DC01F",
+    "Id": "15926",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "594AE46836C6E1D558FD0851CC700B9DCA8BDCB4ABBD994E866D4D72CC08019F",
+    "Id": "16014",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "00315C831BF3872A16A2C594B2C286C4E8895C5BDD7A035398BDAD09BF25E7CB",
+    "Id": "17887",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "845086D9A9CA443B3D0D117217C677E5AB56B62D2F6B0FBA7C49A40087A973FC",
+    "Id": "17891",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "1DB3AC7C6379DA1E4CF9C15AE736D59D449CA77F1AD22A4EA086501AA8309A40",
+    "Id": "17893",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "C560503E250AE125DE0ED7C6E7AF9DA8A5C0E1A3BE5438E5F64EF593882B44BF",
+    "Id": "17895",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "BFAE4804E76C0106039BFDCB0847F09ABF35F5787B0179812E6681C72F10C07D",
+    "Id": "17897",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "70DBC7D99F4D9DC628EFA0E21393E79D04127D9CF5358DBBF4CE81579BF820DD",
+    "Id": "19781",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "C621A082A36E78ABCE77C8B91A92CA68F74F3490BF1D0CFCF08A78FC3D1F362F",
+    "Id": "21223",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "0CF63ED908036B868953BFE10CA7D65DB15AB1C7A06885E6110EEE7F2FB9C5ED",
+    "Id": "22254",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "0CF63ED908036B868953BFE10CA7D65DB15AB1C7A06885E6110EEE7F2FB9C5ED",
+    "Id": "22255",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "4528B03A590EA87B300D9E7AA1A7B1F9B5BD2AED7C183BDD36E0BE842561FDE1",
+    "Id": "23122",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "CA73540B8885A719D446B8294326828D61AF1E12342F6B730AA7593A27E4B8CC",
+    "Id": "26609",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "147A2F5247618653D0C23995A1960663C9E9B3AFE0D86F36B14D1D1E4A74DC14",
+    "Id": "26620",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "5BC612E6FC29E50F4C545465810808C673B706B9C8EBC5134DB726858D7DA6E5",
+    "Id": "35148",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "281B8268F5387C411FDC58660CDDA236F3D1FB2E18C1241ABA095E3340A7770D",
+    "Id": "35477",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "D09B9E1E5A0F7C9089EE9671A57F13C0BA519C36770069C12386119309601570",
+    "Id": "35478",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "4F5A838323B9E953365CFCACA5D6160A4232AF352204EBFACEA198C5E6463C12",
+    "Id": "35480",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "FD848E488F384AC3910CEC652B221E48FB3F3550F7BDF3ACEEE5270458B2C243",
+    "Id": "35697",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "6685FB314D190B2A11C5558F6A73359CC67BB422DC1D1C7F47CA3352D4C145BE",
+    "Id": "37790",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "6685FB314D190B2A11C5558F6A73359CC67BB422DC1D1C7F47CA3352D4C145BE",
+    "Id": "37792",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "4C97631F0CAD8F57F280EC9C19A359BE4931F3540771AE38BC4EF1DB691CB148",
+    "Id": "39160",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "5BC612E6FC29E50F4C545465810808C673B706B9C8EBC5134DB726858D7DA6E5",
+    "Id": "42501",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "DE5A6F78116ECA62D7FC5CE159D23AE6B889B365A1739AD2CF36F925A140D0CC",
+    "Id": "43105",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "DE434789B381329D07B52C33748CBA60589E835BD8CB707A14EF0BE591A2ABA5",
+    "Id": "43311",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "6685FB314D190B2A11C5558F6A73359CC67BB422DC1D1C7F47CA3352D4C145BE",
+    "Id": "46369",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "6685FB314D190B2A11C5558F6A73359CC67BB422DC1D1C7F47CA3352D4C145BE",
+    "Id": "46879",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "D4DF0793A7EA0106A2E2F1AF8C3265678DAF5C4226D46D6C855F876AAF401B03",
+    "Id": "47157",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "54DE4B27140AF8FAFE4DCCBCD8FABE56FF89BBC825EDE2701901B747316D9E6E",
+    "Id": "48321",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "E2BF6880FEEB4BE987C59E39EA60595E2EB278E4A7E30359B28DF620BF908438",
+    "Id": "48323",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "BEEA4AA7CCFD66875030DA890082CEDCF661CFE0FF7AB855F4B69B2CF6DF5E77",
+    "Id": "48325",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "75E72FECB7124B4B9BA731C1CD2EDD96E7853110B76E484F855791E727C3AD00",
+    "Id": "48327",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "470521B42DA9281442C2613B419EEFAF40D70C3705D62D9B6C5623E5ECE81C69",
+    "Id": "48327",
+    "Field": "maleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "1ADB8F0EE6B6319CBB2C26E6A5BA29E499DCB8583212DADB2AD239B64E2FA303",
+    "Id": "48329",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "92B45A0DF59211C31C66B8BFDFB887BC6412F7208C62A3005CAD031664B087F5",
+    "Id": "48329",
+    "Field": "maleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "8D4B491ECC0EBDB89773825FA57BB91451325D3BDE1F9C9D3F1AA9BCB496AC81",
+    "Id": "48331",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "1E14272A611F303434DD5ED57981D9B86AB3873D0394B69CC4DEF72A97777DFB",
+    "Id": "48331",
+    "Field": "maleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "5CF546B30FF098F31529B0A6A19A0F35559A8B8CD6C7116AC5E5BBD337A18ACC",
+    "Id": "48333",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "FE082A9DC025D87BC5E66F8B0B4CCD7D116BE1FC153C1E31B4AF5C91421BB343",
+    "Id": "48333",
+    "Field": "maleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "5CF546B30FF098F31529B0A6A19A0F35559A8B8CD6C7116AC5E5BBD337A18ACC",
+    "Id": "48335",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "8B310820922CDFC709E6FFD541DA457D2487B6EC38F1105F4898589A8C5C013B",
+    "Id": "48335",
+    "Field": "maleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "A983CF275FB97D42B85E942C0F6621ACA589554DC85A376A535E79AFAAEA7245",
+    "Id": "48337",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "B923F252B9783E35909F33993AABB36874B1C874E0785B488B6253EDD0ED9E70",
+    "Id": "48339",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "99B6F3D31D07926E4C6D3D4CC03E7EF4A6DCCEF56EBF2896EB923D402142DDAA",
+    "Id": "48341",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "125F63ED9488710B9635135C8B13DCBD05BC5CB4C853EACA8AE0AF92B58F7922",
+    "Id": "52511",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "25D519CE41524C19E81D36FB193C50A6FC154C14B3E18D3F3E6AC84B9D1480D7",
+    "Id": "53777",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "530218952AC17051DDF033F2217D06C6EEC16E9D3B8C529B8C0D6EF6E4E48314",
+    "Id": "54132",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "F092C0CEDDB959CCF912BDCBD77255945C21E8F6404741226135BFCDAFDEB759",
+    "Id": "54133",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "0B0D3DE1859706FF8C4B47095E1456B39B2CBEC166FB7BEA94BB3DC4298900A2",
+    "Id": "54144",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "F5BBE1E986F531905FBD37A9B390451EE6A378C41CE569E5777B2B71D6E33F48",
+    "Id": "54145",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "61656B49267CDC4730C0C1BB9C024CF0F23CF1A0EFB81364EF839B57015FFD75",
+    "Id": "54152",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "C2167B91AB740885C4C35CDA976DD13CB49B2DB76C2E72ED8B785D13619BA444",
+    "Id": "54153",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "87699AE2085F063E016044CE7A166CDF07E09A6C16C17ABFF40513E8E9DFAE09",
+    "Id": "54162",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "CE6FEE8F4CF631EDA84F2236245C4318C54EF805D6B82040CAB8B31194C200BB",
+    "Id": "77837",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "114A4348F6B6BA8331A3E4CB5D0A0A8936212279E3104CC87614DF1A8A085D91",
+    "Id": "77908",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "FA649E68DE32E3E09477819E2901D438B94A58F6A8C4CD529272CC77DA9A90FD",
+    "Id": "77909",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "5D76B18BB0AC7630814E3EBBFF435E0B4A3E10EC8E46B83388E21D77D0FFC4E4",
+    "Id": "79105",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "973837F309E8C7D1FEFD406E4AEA7DD4B677995CBEC730B3F353183ED8EDEFE7",
+    "Id": "79106",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "68FFA823789C7FCFC8EFF1FA9A3BC8F4C0792F04DC68FC1CEAF7633ACE8962E4",
+    "Id": "79107",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "A7A4227A6D198523C15DEE84A650110330045E3EF4062F78FB35787CDA91AD8A",
+    "Id": "79108",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "D6BF62549C09E17D7A4DA513836519CC4B7B3BA83323DA1C99FAF505C9EF338B",
+    "Id": "79196",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "E8F80590576B0F266E256AF53A6105A321A6C5D6C7557C55E437B995DFA78DA3",
+    "Id": "79198",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "C5709B0CB8F3E7CE8188C38EC86EF8C6BC40BC9318F942F9465D44CF580AC05A",
+    "Id": "80898",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "3850E148067CEDC0802A35F76ACFAA66C09298F316C2194A3076DF105A2FD169",
+    "Id": "80901",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "0B62EAFABF38CA27141FDC5BD74F379FF7B26A1B9BDDC4B346726E5CEFD804DD",
+    "Id": "80903",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "2A2EA52336D84BD4D212828656F4380C635473A0FD39FC4A74A6232ADE16877E",
+    "Id": "84914",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "FC64A29305AE5652961D7E02300730DE6F10177C325D0724BF318F3752CC9EFF",
+    "Id": "15810",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "2BE65B3DCCB325323E24182C4574A58E8E07BF435362C27D796816296436414F",
+    "Id": "15810",
+    "Field": "maleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "8DB77EA01F3CA9B10266D898221C699CBF333874D7F17094288FA281523DC01F",
+    "Id": "15926",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "594AE46836C6E1D558FD0851CC700B9DCA8BDCB4ABBD994E866D4D72CC08019F",
+    "Id": "16014",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "00315C831BF3872A16A2C594B2C286C4E8895C5BDD7A035398BDAD09BF25E7CB",
+    "Id": "17887",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "845086D9A9CA443B3D0D117217C677E5AB56B62D2F6B0FBA7C49A40087A973FC",
+    "Id": "17891",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "1DB3AC7C6379DA1E4CF9C15AE736D59D449CA77F1AD22A4EA086501AA8309A40",
+    "Id": "17893",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "C560503E250AE125DE0ED7C6E7AF9DA8A5C0E1A3BE5438E5F64EF593882B44BF",
+    "Id": "17895",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "BFAE4804E76C0106039BFDCB0847F09ABF35F5787B0179812E6681C72F10C07D",
+    "Id": "17897",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "70DBC7D99F4D9DC628EFA0E21393E79D04127D9CF5358DBBF4CE81579BF820DD",
+    "Id": "19781",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "C621A082A36E78ABCE77C8B91A92CA68F74F3490BF1D0CFCF08A78FC3D1F362F",
+    "Id": "21223",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "0CF63ED908036B868953BFE10CA7D65DB15AB1C7A06885E6110EEE7F2FB9C5ED",
+    "Id": "22254",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "0CF63ED908036B868953BFE10CA7D65DB15AB1C7A06885E6110EEE7F2FB9C5ED",
+    "Id": "22255",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "4528B03A590EA87B300D9E7AA1A7B1F9B5BD2AED7C183BDD36E0BE842561FDE1",
+    "Id": "23122",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "CA73540B8885A719D446B8294326828D61AF1E12342F6B730AA7593A27E4B8CC",
+    "Id": "26609",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "147A2F5247618653D0C23995A1960663C9E9B3AFE0D86F36B14D1D1E4A74DC14",
+    "Id": "26620",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "5BC612E6FC29E50F4C545465810808C673B706B9C8EBC5134DB726858D7DA6E5",
+    "Id": "35148",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "281B8268F5387C411FDC58660CDDA236F3D1FB2E18C1241ABA095E3340A7770D",
+    "Id": "35477",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "D09B9E1E5A0F7C9089EE9671A57F13C0BA519C36770069C12386119309601570",
+    "Id": "35478",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "4F5A838323B9E953365CFCACA5D6160A4232AF352204EBFACEA198C5E6463C12",
+    "Id": "35480",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "FD848E488F384AC3910CEC652B221E48FB3F3550F7BDF3ACEEE5270458B2C243",
+    "Id": "35697",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "6685FB314D190B2A11C5558F6A73359CC67BB422DC1D1C7F47CA3352D4C145BE",
+    "Id": "37790",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "6685FB314D190B2A11C5558F6A73359CC67BB422DC1D1C7F47CA3352D4C145BE",
+    "Id": "37792",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "4C97631F0CAD8F57F280EC9C19A359BE4931F3540771AE38BC4EF1DB691CB148",
+    "Id": "39160",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "5BC612E6FC29E50F4C545465810808C673B706B9C8EBC5134DB726858D7DA6E5",
+    "Id": "42501",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "DE5A6F78116ECA62D7FC5CE159D23AE6B889B365A1739AD2CF36F925A140D0CC",
+    "Id": "43105",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "DE434789B381329D07B52C33748CBA60589E835BD8CB707A14EF0BE591A2ABA5",
+    "Id": "43311",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "6685FB314D190B2A11C5558F6A73359CC67BB422DC1D1C7F47CA3352D4C145BE",
+    "Id": "46369",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "6685FB314D190B2A11C5558F6A73359CC67BB422DC1D1C7F47CA3352D4C145BE",
+    "Id": "46879",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "D4DF0793A7EA0106A2E2F1AF8C3265678DAF5C4226D46D6C855F876AAF401B03",
+    "Id": "47157",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "54DE4B27140AF8FAFE4DCCBCD8FABE56FF89BBC825EDE2701901B747316D9E6E",
+    "Id": "48321",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "E2BF6880FEEB4BE987C59E39EA60595E2EB278E4A7E30359B28DF620BF908438",
+    "Id": "48323",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "BEEA4AA7CCFD66875030DA890082CEDCF661CFE0FF7AB855F4B69B2CF6DF5E77",
+    "Id": "48325",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "75E72FECB7124B4B9BA731C1CD2EDD96E7853110B76E484F855791E727C3AD00",
+    "Id": "48327",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "470521B42DA9281442C2613B419EEFAF40D70C3705D62D9B6C5623E5ECE81C69",
+    "Id": "48327",
+    "Field": "maleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "1ADB8F0EE6B6319CBB2C26E6A5BA29E499DCB8583212DADB2AD239B64E2FA303",
+    "Id": "48329",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "92B45A0DF59211C31C66B8BFDFB887BC6412F7208C62A3005CAD031664B087F5",
+    "Id": "48329",
+    "Field": "maleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "8D4B491ECC0EBDB89773825FA57BB91451325D3BDE1F9C9D3F1AA9BCB496AC81",
+    "Id": "48331",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "1E14272A611F303434DD5ED57981D9B86AB3873D0394B69CC4DEF72A97777DFB",
+    "Id": "48331",
+    "Field": "maleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "5CF546B30FF098F31529B0A6A19A0F35559A8B8CD6C7116AC5E5BBD337A18ACC",
+    "Id": "48333",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "FE082A9DC025D87BC5E66F8B0B4CCD7D116BE1FC153C1E31B4AF5C91421BB343",
+    "Id": "48333",
+    "Field": "maleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "5CF546B30FF098F31529B0A6A19A0F35559A8B8CD6C7116AC5E5BBD337A18ACC",
+    "Id": "48335",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "8B310820922CDFC709E6FFD541DA457D2487B6EC38F1105F4898589A8C5C013B",
+    "Id": "48335",
+    "Field": "maleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "A983CF275FB97D42B85E942C0F6621ACA589554DC85A376A535E79AFAAEA7245",
+    "Id": "48337",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "B923F252B9783E35909F33993AABB36874B1C874E0785B488B6253EDD0ED9E70",
+    "Id": "48339",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "99B6F3D31D07926E4C6D3D4CC03E7EF4A6DCCEF56EBF2896EB923D402142DDAA",
+    "Id": "48341",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "125F63ED9488710B9635135C8B13DCBD05BC5CB4C853EACA8AE0AF92B58F7922",
+    "Id": "52511",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "25D519CE41524C19E81D36FB193C50A6FC154C14B3E18D3F3E6AC84B9D1480D7",
+    "Id": "53777",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "530218952AC17051DDF033F2217D06C6EEC16E9D3B8C529B8C0D6EF6E4E48314",
+    "Id": "54132",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "F092C0CEDDB959CCF912BDCBD77255945C21E8F6404741226135BFCDAFDEB759",
+    "Id": "54133",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "0B0D3DE1859706FF8C4B47095E1456B39B2CBEC166FB7BEA94BB3DC4298900A2",
+    "Id": "54144",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "F5BBE1E986F531905FBD37A9B390451EE6A378C41CE569E5777B2B71D6E33F48",
+    "Id": "54145",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "61656B49267CDC4730C0C1BB9C024CF0F23CF1A0EFB81364EF839B57015FFD75",
+    "Id": "54152",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "C2167B91AB740885C4C35CDA976DD13CB49B2DB76C2E72ED8B785D13619BA444",
+    "Id": "54153",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "87699AE2085F063E016044CE7A166CDF07E09A6C16C17ABFF40513E8E9DFAE09",
+    "Id": "54162",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "CE6FEE8F4CF631EDA84F2236245C4318C54EF805D6B82040CAB8B31194C200BB",
+    "Id": "77837",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "114A4348F6B6BA8331A3E4CB5D0A0A8936212279E3104CC87614DF1A8A085D91",
+    "Id": "77908",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "FA649E68DE32E3E09477819E2901D438B94A58F6A8C4CD529272CC77DA9A90FD",
+    "Id": "77909",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "5D76B18BB0AC7630814E3EBBFF435E0B4A3E10EC8E46B83388E21D77D0FFC4E4",
+    "Id": "79105",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "973837F309E8C7D1FEFD406E4AEA7DD4B677995CBEC730B3F353183ED8EDEFE7",
+    "Id": "79106",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "68FFA823789C7FCFC8EFF1FA9A3BC8F4C0792F04DC68FC1CEAF7633ACE8962E4",
+    "Id": "79107",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "A7A4227A6D198523C15DEE84A650110330045E3EF4062F78FB35787CDA91AD8A",
+    "Id": "79108",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "D6BF62549C09E17D7A4DA513836519CC4B7B3BA83323DA1C99FAF505C9EF338B",
+    "Id": "79196",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "E8F80590576B0F266E256AF53A6105A321A6C5D6C7557C55E437B995DFA78DA3",
+    "Id": "79198",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "C5709B0CB8F3E7CE8188C38EC86EF8C6BC40BC9318F942F9465D44CF580AC05A",
+    "Id": "80898",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "3850E148067CEDC0802A35F76ACFAA66C09298F316C2194A3076DF105A2FD169",
+    "Id": "80901",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "0B62EAFABF38CA27141FDC5BD74F379FF7B26A1B9BDDC4B346726E5CEFD804DD",
+    "Id": "80903",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "OriginalHash": "2A2EA52336D84BD4D212828656F4380C635473A0FD39FC4A74A6232ADE16877E",
+    "Id": "84914",
+    "Field": "femaleVariant",
+    "Note": "Reviewed protagonist UI, appearance, alias, inventory/item or tutorial reference from installed English table.",
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Category": 3
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Id": "42833",
+    "Category": 3,
+    "OriginalHash": "9DB520382EB09372194D93FE96F58F1EA79F79DEDFF5B45F68AD493FF7654826",
+    "Field": "femaleVariant",
+    "Note": "Character creation voice/pronoun explanation; protagonist name only, pronoun choice unchanged."
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens_final.json",
+    "Id": "42834",
+    "Category": 3,
+    "OriginalHash": "A8C21BB5ED8AC9B7ADBA7531DC0AF47F5BD6A3A18E949C38F121F752D0F92C68",
+    "Field": "femaleVariant",
+    "Note": "Character creation voice/pronoun explanation; protagonist name only, pronoun choice unchanged."
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Id": "42833",
+    "Category": 3,
+    "OriginalHash": "9DB520382EB09372194D93FE96F58F1EA79F79DEDFF5B45F68AD493FF7654826",
+    "Field": "femaleVariant",
+    "Note": "Character creation voice/pronoun explanation; protagonist name only, pronoun choice unchanged."
+  },
+  {
+    "Resource": "base\\localization\\en-us\\onscreens\\onscreens.json",
+    "Id": "42834",
+    "Category": 3,
+    "OriginalHash": "A8C21BB5ED8AC9B7ADBA7531DC0AF47F5BD6A3A18E949C38F121F752D0F92C68",
+    "Field": "femaleVariant",
+    "Note": "Character creation voice/pronoun explanation; protagonist name only, pronoun choice unchanged."
+  },
+  {
+    "Category": 2,
+    "Id": "85826",
+    "Field": "femaleVariant",
+    "Note": "Verified q303 hands_v_data protagonist dossier or q302 v_description_reed_holo key; gender-specific protagonist full name.",
+    "OriginalHash": "CBFF53C68DABCBDFEE7BA6817883714AC8C7F70CBA327B86647D7D58F186DA39",
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens_final.json"
+  },
+  {
+    "Category": 2,
+    "Id": "85826",
+    "Field": "maleVariant",
+    "Note": "Verified q303 hands_v_data protagonist dossier or q302 v_description_reed_holo key; gender-specific protagonist full name.",
+    "OriginalHash": "F44C4B0766FC9F085EE869651E9E435F80588520E3DB0F08A2112891D29DC5AB",
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens_final.json"
+  },
+  {
+    "Category": 2,
+    "Id": "88390",
+    "Field": "femaleVariant",
+    "Note": "Verified q303 hands_v_data protagonist dossier or q302 v_description_reed_holo key; gender-specific protagonist full name.",
+    "OriginalHash": "CBFF53C68DABCBDFEE7BA6817883714AC8C7F70CBA327B86647D7D58F186DA39",
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens_final.json"
+  },
+  {
+    "Category": 3,
+    "Id": "93736",
+    "Field": "femaleVariant",
+    "Note": "Verified q303 hands_v_data protagonist dossier or q302 v_description_reed_holo key; gender-specific protagonist full name.",
+    "OriginalHash": "E909DBD16BA977BAC9FAC1731C95EF6AA7C09C146CCD53BF5BB008502E163CCC",
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens_final.json"
+  },
+  {
+    "Category": 3,
+    "Id": "93736",
+    "Field": "maleVariant",
+    "Note": "Verified q303 hands_v_data protagonist dossier or q302 v_description_reed_holo key; gender-specific protagonist full name.",
+    "OriginalHash": "E48FFCFB36FD45011A67E7B08869A1C663F27BE01E35104ABD90AC4F48C87726",
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens_final.json"
+  },
+  {
+    "Category": 2,
+    "Id": "85826",
+    "Field": "femaleVariant",
+    "Note": "Verified q303 hands_v_data protagonist dossier or q302 v_description_reed_holo key; gender-specific protagonist full name.",
+    "OriginalHash": "CBFF53C68DABCBDFEE7BA6817883714AC8C7F70CBA327B86647D7D58F186DA39",
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens.json"
+  },
+  {
+    "Category": 2,
+    "Id": "85826",
+    "Field": "maleVariant",
+    "Note": "Verified q303 hands_v_data protagonist dossier or q302 v_description_reed_holo key; gender-specific protagonist full name.",
+    "OriginalHash": "F44C4B0766FC9F085EE869651E9E435F80588520E3DB0F08A2112891D29DC5AB",
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens.json"
+  },
+  {
+    "Category": 2,
+    "Id": "88390",
+    "Field": "femaleVariant",
+    "Note": "Verified q303 hands_v_data protagonist dossier or q302 v_description_reed_holo key; gender-specific protagonist full name.",
+    "OriginalHash": "CBFF53C68DABCBDFEE7BA6817883714AC8C7F70CBA327B86647D7D58F186DA39",
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens.json"
+  },
+  {
+    "Category": 3,
+    "Id": "93736",
+    "Field": "femaleVariant",
+    "Note": "Verified q303 hands_v_data protagonist dossier or q302 v_description_reed_holo key; gender-specific protagonist full name.",
+    "OriginalHash": "E909DBD16BA977BAC9FAC1731C95EF6AA7C09C146CCD53BF5BB008502E163CCC",
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens.json"
+  },
+  {
+    "Category": 3,
+    "Id": "93736",
+    "Field": "maleVariant",
+    "Note": "Verified q303 hands_v_data protagonist dossier or q302 v_description_reed_holo key; gender-specific protagonist full name.",
+    "OriginalHash": "E48FFCFB36FD45011A67E7B08869A1C663F27BE01E35104ABD90AC4F48C87726",
+    "Resource": "ep1\\localization\\en-us\\onscreens\\onscreens.json"
+  }
+]
