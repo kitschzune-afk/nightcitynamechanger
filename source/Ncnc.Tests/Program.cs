@@ -1,6 +1,26 @@
 using Ncnc;
 using System.Text.Json;
 var cli = args.Length > 1 ? args[1] : "";
+if (args.Length > 0 && args[0] == "character-integration")
+{
+    var tool = new Toolchain(cli, Console.WriteLine);
+    var index = await new Scanner(tool, Path.Combine(args[3], "cache"), args[4], Console.WriteLine).Scan(args[2], default);
+    foreach (var group in index.Entries.GroupBy(e => e.CharacterId))
+        Console.WriteLine($"{group.Key}: {group.Count()} references; {group.Count(e => e.Resource.StartsWith("ep1\\"))} Phantom Liberty");
+    var renames = new Dictionary<string, CharacterRename>
+    {
+        ["v"] = new() { Enabled = true, Name = "Johnny" },
+        ["johnny"] = new() { Enabled = true, Name = "Robert" },
+        ["rogue"] = new() { Enabled = true, Name = "Jane" }
+    };
+    var builder = new Builder(tool, Path.Combine(args[3], "character-builds"), Console.WriteLine);
+    var result = await builder.Build(args[2], index, renames, Enum.GetValues<Category>(), default);
+    var again = await builder.Build(args[2], index, renames, Enum.GetValues<Category>(), default);
+    if (result.Sha256 != again.Sha256 || result.Archive != again.Archive) throw new Exception("Character cache mismatch");
+    Storage.Write(Path.Combine(args[3], "character-build.json"), result);
+    Console.WriteLine("PASS combined character archive round-trip and build reuse");
+    return;
+}
 if (args.Length > 0 && args[0] == "index")
 {
     var index = Scanner.Index(args[1], "research", Console.WriteLine, default);
@@ -113,4 +133,21 @@ Reject("reject empty", () => Replacement.ValidateName("  "));
 Reject("reject traversal", () => Storage.Child(Path.GetTempPath(), "../escape"));
 Reject("invalid game", () => Game.Validate(Path.GetTempPath()));
 Reject("missing dependency", () => new Toolchain(Path.Combine(Path.GetTempPath(), "absent-ncnc.exe"), _ => {}).Run(default, "--version").GetAwaiter().GetResult());
+Check("Johnny full name longest match", Replacement.ReplaceCharacter("Johnny Silverhand met Johnny. Silverhand's jacket.", "Robert", "johnny") == "Robert met Robert. Robert's jacket.");
+Check("Rogue possessive and uppercase", Replacement.ReplaceCharacter("Rogue’s gun / ROGUE AMENDIARES / Amendiares", "Jane", "rogue") == "Jane’s gun / JANE / Jane");
+Check("character isolation", Replacement.ReplaceCharacter("Johnny and Rogue met V.", "Jane", "rogue") == "Johnny and Jane met V.");
+Check("word boundaries", Replacement.ReplaceCharacter("Johnnyboy Silverhands xJohnny Johnny_01", "Robert", "johnny") == "Johnnyboy Silverhands xJohnny Johnny_01");
+Check("NPC markup protected", Replacement.ReplaceCharacter("<Johnny>Johnny</> {Johnny} [Johnny] $Johnny$ LocKey#123", "Robert", "johnny") == "<Johnny>Robert</> {Johnny} [Johnny] $Johnny$ LocKey#123");
+Check("literal NPC newline", Replacement.ReplaceCharacter(@"Hey\nJohnny", "Robert", "johnny") == @"Hey\nRobert");
+Check("simultaneous no cascade", Replacement.ReplaceMany("V, Johnny Silverhand and Rogue.", [("v", "Johnny", false), ("johnny", "Rogue", true), ("rogue", "V", true)]) == "Johnny, Rogue and V.");
+Check("shared surname protected", Replacement.ReplaceCharacter("Hanako Arasaka, Yorinobu Arasaka and Arasaka", "Hana", "hanako") == "Hana, Yorinobu Arasaka and Arasaka");
+Check("expansion aliases", Replacement.ReplaceCharacter("Song So Mi called Songbird and So Mi.", "Luna", "songbird") == "Luna called Luna and Luna.");
+var migrated = new Settings { Name = "Alex" }; Characters.Initialize(migrated);
+Check("old settings migrate V only", migrated.Renames["v"].Enabled && migrated.Renames["v"].Name == "Alex" && !migrated.Renames["johnny"].Enabled);
+var savedSettings = JsonSerializer.Deserialize<Settings>(JsonSerializer.Serialize(migrated))!;
+Check("character settings round-trip", savedSettings.Renames["v"].Name == "Alex" && savedSettings.Renames.Count == Characters.All.Length);
+Check("independent row selections", new Candidate { CharacterId = "johnny" }.SelectionIdentity != new Candidate { CharacterId = "v" }.SelectionIdentity);
+var npcIndex = new IndexData("", "", [new() { CharacterId = "rogue", Original = "Rogue", Category = Category.Unclassified }], 1, 1, 2);
+new Scanner(new Toolchain("unused", _ => {}), "", "missing.json", _ => {}).ApplyReview(npcIndex);
+Check("NPC UI candidates included", npcIndex.Entries[0].Include && npcIndex.Entries[0].Category == Category.UI);
 Console.WriteLine($"{passed} tests passed.");

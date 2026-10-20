@@ -10,7 +10,15 @@ public sealed class Scanner(Toolchain tool, string cache, string reviewedPath, A
         var fingerprint = Game.Fingerprint(game, tool.Executable);
         var root = Path.Combine(cache, fingerprint);
         var indexFile = Path.Combine(root, "index.json");
-        if (File.Exists(indexFile)) { log("Reusing version-matched localization index."); return ApplyReview(Storage.Read<IndexData>(indexFile)); }
+        if (File.Exists(indexFile))
+        {
+            var saved = Storage.Read<IndexData>(indexFile);
+            if (saved.Version == 2) { log("Reusing version-matched localization index."); return ApplyReview(saved); }
+            log("Updating existing localization index for character selection.");
+            var updated = Index(root, fingerprint, log, ct);
+            Storage.Write(indexFile, updated);
+            return ApplyReview(updated);
+        }
         var resources = Path.Combine(root, "resources");
         Directory.CreateDirectory(resources);
         foreach (var source in Game.Sources(game))
@@ -31,6 +39,14 @@ public sealed class Scanner(Toolchain tool, string cache, string reviewedPath, A
         var reviewed = File.Exists(reviewedPath) ? Storage.Read<List<Reviewed>>(reviewedPath).ToDictionary(x => x.Resource + "|" + x.Id + "|" + x.Field) : [];
         foreach (var entry in data.Entries)
         {
+            if (entry.CharacterId != "v")
+            {
+                entry.Include = true;
+                entry.ReplaceFullNames = true;
+                entry.Review = "Name match; review context";
+                if (entry.Category == Category.Unclassified) entry.Category = Category.UI;
+                continue;
+            }
             entry.Include = Replacement.HasStandaloneV(entry.Original);
             entry.ReplaceFullNames = false;
             entry.Review = entry.Include ? "Standalone V selected; not in-game verified" : "Full name needs review";
@@ -79,13 +95,15 @@ public sealed class Scanner(Toolchain tool, string cache, string reviewedPath, A
                 foreach (var field in new[] { "femaleVariant", "maleVariant" })
                 {
                     var original = entry[field]?.ToString() ?? ""; strings++;
-                    if (original.Length == 0 || !Replacement.IsCandidate(original)) continue;
-                    candidates.Add(new() { Resource = depot, Id = id, SecondaryKey = key, Field = field, Original = original, Category = category, Evidence = evidence });
+                    if (original.Length == 0) continue;
+                    foreach (var character in Characters.All)
+                        if (Replacement.IsCandidate(original, character.Id))
+                            candidates.Add(new() { CharacterId = character.Id, Resource = depot, Id = id, SecondaryKey = key, Field = field, Original = original, Category = category, Evidence = evidence });
                 }
             }
         }
         log($"Indexed {count:N0} resources / {strings:N0} variants; {candidates.Count:N0} candidate references.");
-        return new(fingerprint, root, candidates, count, strings);
+        return new(fingerprint, root, candidates, count, strings, 2);
     }
     private static void Walk(JsonNode? node, string type, string field, Dictionary<string, HashSet<(Category, string)>> refs)
     {

@@ -1,8 +1,8 @@
 # NcNc — Night City Name Changer
 
-**Source and review repository for the Windows x64 application, version 1.1.0.**
+**Source and review repository for the Windows x64 application, version 1.2.0.**
 
-NcNc generates an English text-localization mod for Cyberpunk 2077 and Phantom Liberty. The default protagonist name is Johnny. The application scans the user's installed game, presents a replacement preview, builds a real REDengine archive with WolvenKit, and installs or removes its own archive using an ownership manifest.
+NcNc generates an English text-localization mod for Cyberpunk 2077 and Phantom Liberty. The default protagonist name is Johnny. Version 1.2 adds a chooser for 26 characters and combines enabled character renames in one archive. The application scans the user's installed game, presents a replacement preview, builds a real REDengine archive with WolvenKit, and installs or removes its own archive using an ownership manifest.
 
 This repository is provided for independent review following a reported Nexus quarantine. **The quarantine reason has not been supplied or independently established. This repository is not a claim of antivirus clearance or a request to bypass quarantine.**
 
@@ -10,7 +10,17 @@ This repository is provided for independent review following a reported Nexus qu
 
 Start with [REVIEWER_GUIDE.md](REVIEWER_GUIDE.md), [SECURITY_REVIEW.md](SECURITY_REVIEW.md), and [release hashes](docs/RELEASE-HASHES.sha256). The repository contains application source, the mapping database, icon source, build/test scripts and a file-by-file hash inventory of the delivered portable ZIP. It deliberately excludes executable binaries, original game assets, generated mods, caches, credentials and personal operation logs.
 
-The delivered application is **unsigned**, uses .NET single-file self-contained publishing, and includes native/runtime libraries plus a separate WolvenKit CLI. These are disclosed packaging facts, not an explanation of the quarantine. Reviewers can build a normal multi-file version to inspect the managed assemblies without using the delivered executable.
+The portable application is **unsigned**, uses .NET single-file self-contained publishing, and includes native/runtime libraries plus a separate WolvenKit CLI. These are disclosed packaging facts, not an explanation of the quarantine. Reviewers can build a normal multi-file version to inspect the managed assemblies without using the delivered executable.
+
+## Character chooser (1.2)
+
+Choose V, Johnny, Rogue, or another character from the dropdown, enter the new name, and enable that character. Repeat for additional characters, then scan, review, generate and install. The preview and Approve all act on the chosen character; generation combines all enabled characters. Export preview writes the combined result. Unchecking a row only excludes that character from that text, so another character in the same sentence can still change.
+
+Full names, first names and the aliases listed beside the chooser use one replacement name. Johnny Silverhand becomes one new name, rather than two copies. Uppercase references and possessives are handled. Names are replaced in one pass against the original, allowing swaps without cascading. Only V is enabled by default; existing V settings migrate. Switching characters retains edits and selections. Installing another generated archive replaces the owned archive, so enable every character you want in the final mod before generating.
+
+The catalog includes V, Johnny, Rogue, Panam, Judy, Jackie, Kerry, River, Takemura, Viktor, Misty, Evelyn, Dexter, T-Bug, Hanako, Yorinobu, Saburo, Adam Smasher, Alt, Saul, Mitch, Songbird, Reed, Alex, Myers and Hansen. Inspect `source/Ncnc.Core/Characters.cs` for exact aliases. Shared surnames such as Arasaka are deliberately not matched alone. This is a defined alias catalog, not semantic identification of every possible nickname. Title-case and uppercase aliases match; lowercase ordinary words such as rogue, river and alt are not automatically renamed. Unrelated people with the same capitalized name can still match. Review the original/replacement text before installing.
+
+The scan covers supported English localization resources for the base game and Phantom Liberty, including localized character labels, subtitles, journal text, messages, UI and item descriptions. It cannot guarantee every appearance in-game: audio, artwork, other languages, runtime-generated text, unlisted aliases and strings outside supported resources are not rewritten. Names inside localization markup remain protected. Renaming a character does not change their appearance, voice, pronouns, identity or quest logic.
 
 ## Features
 

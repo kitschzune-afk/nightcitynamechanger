@@ -1,5 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
- <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework><UseWPF>true</UseWPF><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><AssemblyName>NightCityNameChanger</AssemblyName><Version>1.1.0</Version><ApplicationManifest>app.manifest</ApplicationManifest></PropertyGroup>
+ <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework><UseWPF>true</UseWPF><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><AssemblyName>NightCityNameChanger</AssemblyName><Version>1.2.0</Version><ApplicationManifest>app.manifest</ApplicationManifest></PropertyGroup>
  <PropertyGroup><ApplicationIcon>Assets/NcNc.ico</ApplicationIcon></PropertyGroup>
  <ItemGroup><ProjectReference Include="../Ncnc.Core/Ncnc.Core.csproj" /><Resource Include="Assets/NcNc.ico" /></ItemGroup>
 </Project>

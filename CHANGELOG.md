@@ -1,3 +1,11 @@
+# 1.2.0 — Character chooser
+
+- 26 character profiles with independent names, enable switches and review selections.
+- Longest full-name matching and simultaneous replacements prevent duplicated names and cascades.
+- Base-game/Phantom Liberty localization scanning, per-character previews and combined exports/builds.
+- Migrates existing V settings and rebuilds old localization indexes.
+- 43 game-free assertions passed; see RELEASE-1.2.0.md for integration validation.
+
 # Changelog
 
 ## 1.1.0 — source-review snapshot

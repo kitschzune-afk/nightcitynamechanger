@@ -7,6 +7,6 @@ $link = $shell.CreateShortcut((Join-Path $programs 'NcNc - Night City Name Chang
 $link.TargetPath = $app
 $link.WorkingDirectory = Split-Path $app
 $link.IconLocation = "$app,0"
-$link.Description = 'Rename Cyberpunk 2077 protagonist text'
+$link.Description = 'Rename Cyberpunk 2077 character names in English text'
 $link.Save()
 Write-Output 'Start menu shortcut created: NcNc - Night City Name Changer'

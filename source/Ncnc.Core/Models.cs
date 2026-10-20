@@ -5,6 +5,8 @@ namespace Ncnc;
 public enum Category { Dialogue, Journal, Messages, UI, Unclassified }
 public sealed class Candidate
 {
+    public string CharacterId { get; set; } = "v";
+    public string SelectionIdentity => CharacterId + "|" + Identity;
     public bool Include { get; set; }
     public bool ReplaceFullNames { get; set; }
     public string Resource { get; set; } = "";
@@ -18,12 +20,14 @@ public sealed class Candidate
     public string Review { get; set; } = "Needs review";
     public string Identity => Resource + "|" + Id + "|" + Field;
 }
-public sealed record Reviewed(string Resource, string Id, string Field, string OriginalHash, Category Category, string Note);
-public sealed record IndexData(string Fingerprint, string Root, List<Candidate> Entries, int Resources, int Strings);
+public sealed record Reviewed(string Resource, string Id, string Field, string OriginalHash, Category Category, string Note, string CharacterId = "v");
+public sealed record IndexData(string Fingerprint, string Root, List<Candidate> Entries, int Resources, int Strings, int Version = 1);
 public sealed record BuildResult(string Archive, string Sha256, string Fingerprint, string Game, List<string> Resources, int Replacements);
 public sealed record InstallManifest(string Owner, string Game, string FileName, string Sha256, DateTime InstalledUtc);
 public sealed class Settings
 {
+    public string SelectedCharacter { get; set; } = "v";
+    public Dictionary<string, CharacterRename> Renames { get; set; } = [];
     public string Name { get; set; } = "Johnny";
     public string Game { get; set; } = "";
     public string Tool { get; set; } = "";

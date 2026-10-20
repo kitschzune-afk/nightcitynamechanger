@@ -2,7 +2,7 @@
 
 ## What this submission establishes
 
-This is a source snapshot and behavior disclosure for NcNc 1.1.0. The user reported that Nexus quarantined the mod/download and requested outside review. No detection name, antivirus report, moderator finding, or quarantine rationale was provided to the developer. Do not treat the absence of such information as a clean result.
+The current source is NcNc 1.2.0 with the character chooser. The original 1.1.0 review snapshot remains in Git history (commit 41e50b1). The user reported that Nexus quarantined the mod/download and requested outside review. No detection name, antivirus report, moderator finding, or quarantine rationale was provided to the developer. Do not treat the absence of such information as a clean result.
 
 1. Confirm the file under review matches `docs/RELEASE-HASHES.sha256`.
 2. Compare extracted portable-package files against `docs/PORTABLE-FILES.csv` (relative path, byte count and SHA-256).
@@ -12,7 +12,7 @@ This is a source snapshot and behavior disclosure for NcNc 1.1.0. The user repor
 6. Obtain the external toolchain independently from WolvenKit/Microsoft if exercising real game-resource processing.
 7. Use an isolated game/test environment for generation and install tests. The application has not received an independent security audit.
 
-## Delivered artifact identity
+## Original 1.1.0 artifact identity
 
 The executable reports file version 1.1.0.0 and does not have an Authenticode signature. The source-review package is separate from the 144.5 MiB portable ZIP. No binaries need to be trusted to read the source. The delivered ZIP included the app, toolchain/runtime, source, documentation and icon assets; individual hashes are preserved for comparison.
 
@@ -20,7 +20,7 @@ The executable is a standard .NET self-contained single-file WPF publish. Native
 
 ## Test commands beyond the game-free suite
 
-The console test project also accepts `integration`, `build-tests`, `installer-tests`, `install` and `uninstall`. Inspect `source/Ncnc.Tests/Program.cs` before invoking these. In particular, **install/uninstall explicitly modify the selected game mod directory**. The default test command does not invoke them or touch a real game installation.
+The console test project also accepts `character-integration`, `integration`, `build-tests`, `installer-tests`, `install` and `uninstall`. Inspect `source/Ncnc.Tests/Program.cs` before invoking these. In particular, **install/uninstall explicitly modify the selected game mod directory**. The default test command does not invoke them or touch a real game installation.
 
 The game-free runner uses a simple assertion harness and exits nonzero when a check fails. It is not a `dotnet test`/xUnit suite. Its passing status demonstrates only the assertions in that file.
 
@@ -28,4 +28,4 @@ The game-free runner uses a simple assertion harness and exits nonzero when a ch
 
 `Create-Start-Menu-Shortcut.ps1` creates a current-user Programs-folder shortcut with WScript.Shell. It points to `app/NightCityNameChanger.exe` relative to the script, so place it beside an `app` folder to use it. It does not add a Startup entry. `source/Make-Icon.ps1` converts the included generated PNG into standard PNG-backed ICO sizes using System.Drawing.
 
-The review repository adds documentation and build scripts; it does not silently repair or change the shipped application implementation. Any future remediation should be separately versioned and its binary hashes regenerated.
+Version 1.2.0 changes the application implementation and is separately versioned. The original RELEASE-HASHES.sha256 and PORTABLE-FILES.csv identify 1.1.0 only. See RELEASE-1.2.0.md for the new build and validation notes. This feature update does not establish the cause of the original quarantine or constitute security clearance.

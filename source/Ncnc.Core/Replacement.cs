@@ -5,7 +5,10 @@ namespace Ncnc;
 public static class Replacement
 {
     // Word boundaries protect words/identifiers. Compound names and abbreviations are checked separately.
-    private static readonly Regex Names = new(@"(?<![\p{L}\p{M}\p{N}_])(?:V|Vincent|Valerie|VINCENT|VALERIE)(?![\p{L}\p{M}\p{N}_])", RegexOptions.Compiled);
+    private static readonly Dictionary<string, Regex> Patterns = Characters.All.ToDictionary(c => c.Id, c => Pattern(c.Aliases));
+    private static Regex Pattern(IEnumerable<string> aliases) => new(
+        @"(?<![\p{L}\p{M}\p{N}_])(?:" + string.Join("|", aliases.SelectMany(a => new[] { a, a.ToUpperInvariant() }).Distinct().OrderByDescending(a => a.Length).Select(Regex.Escape)) + @")(?![\p{L}\p{M}\p{N}_])",
+        RegexOptions.Compiled);
     private static readonly Regex EscapedWhitespace = new(@"\\[nrt]", RegexOptions.Compiled);
     private static readonly Regex Protected = new(@"<[^>]*>|\{[^}]*\}|\[[^\]]*\]|\$[^$\r\n]+\$|%[-+\d.$]*[a-zA-Z]|LocKey#\d+", RegexOptions.Compiled);
     public static string ValidateName(string value)
@@ -17,17 +20,31 @@ public static class Replacement
         return name;
     }
     public static string Replace(string original, string name, bool includeFullNames = true)
+        => ReplaceCharacter(original, name, "v", includeFullNames);
+    public static string ReplaceCharacter(string original, string name, string characterId, bool includeFullNames = true)
+        => ReplaceMany(original, [(characterId, name, includeFullNames)]);
+
+    // Resolve all matches against the original before inserting any replacement.
+    // Longest aliases win, so full names become one name and swaps cannot cascade.
+    public static string ReplaceMany(string original, IEnumerable<(string CharacterId, string Name, bool FullNames)> rules)
     {
-        name = ValidateName(name);
         var protectedSpans = Protected.Matches(original).Cast<Match>().ToArray();
         var allCaps = original.Count(char.IsLetter) > 1 && original == original.ToUpperInvariant();
         // A literal game newline (two characters, backslash+n) is a boundary too.
         var boundaryText = EscapedWhitespace.Replace(original, "  ");
-        var result = new StringBuilder(); int offset = 0;
-        foreach (Match m in Names.Matches(boundaryText))
+        var matches = rules.SelectMany(rule =>
         {
-            if (!includeFullNames && m.Value != "V") continue;
-            if (protectedSpans.Any(p => m.Index >= p.Index && m.Index < p.Index + p.Length)) continue;
+            var name = ValidateName(rule.Name);
+            return Patterns[rule.CharacterId].Matches(boundaryText).Cast<Match>()
+                .Where(m => rule.CharacterId != "v" || rule.FullNames || m.Value == "V")
+                .Select(m => (Match: m, Name: name, rule.CharacterId));
+        }).OrderBy(x => x.Match.Index).ThenByDescending(x => x.Match.Length);
+        var result = new StringBuilder(); int offset = 0;
+        foreach (var hit in matches)
+        {
+            var m = hit.Match; var name = hit.Name;
+            if (m.Index < offset) continue;
+            if (protectedSpans.Any(p => m.Index < p.Index + p.Length && m.Index + m.Length > p.Index)) continue;
             var end = m.Index + m.Length;
             if (m.Value == "V" && (
                 (m.Index >= 2 && ".-".Contains(boundaryText[m.Index - 1]) && char.IsLetterOrDigit(boundaryText[m.Index - 2])) ||
@@ -42,4 +59,5 @@ public static class Replacement
     }
     public static bool IsCandidate(string original) => Replace(original, "__Candidate__") != original;
     public static bool HasStandaloneV(string original) => Replace(original, "__Candidate__", false) != original;
+    public static bool IsCandidate(string original, string characterId) => ReplaceCharacter(original, "__Candidate__", characterId) != original;
 }

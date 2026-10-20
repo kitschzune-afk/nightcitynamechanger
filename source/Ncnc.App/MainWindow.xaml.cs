@@ -12,6 +12,14 @@ public partial class MainWindow : Window
     private BuildResult? build;
     private CancellationTokenSource? cancellation;
     private bool ready;
+    private string SelectedCharacter => (CharacterBox.SelectedItem as Character)?.Id ?? "v";
+    private void StoreCharacter()
+    {
+        var rename = settings.Renames[SelectedCharacter];
+        rename.Name = NameBox.Text; rename.Enabled = RenameEnabled.IsChecked == true;
+        settings.SelectedCharacter = SelectedCharacter;
+        settings.Name = settings.Renames["v"].Name;
+    }
     private string Config => Path.Combine(data, "settings.json");
     public MainWindow()
     {
@@ -19,7 +27,11 @@ public partial class MainWindow : Window
         try { if (File.Exists(Config)) settings = Storage.Read<Settings>(Config); } catch (Exception e) { Log("Could not read settings: " + e.Message); }
         if (string.IsNullOrEmpty(settings.Tool)) settings.Tool = Path.Combine(AppContext.BaseDirectory, "tools", "WolvenKit.CLI.exe");
         if (string.IsNullOrEmpty(settings.Game)) settings.Game = Game.Detect().FirstOrDefault() ?? "";
-        NameBox.Text = settings.Name; GameBox.Text = settings.Game; ToolBox.Text = settings.Tool;
+        Characters.Initialize(settings);
+        CharacterBox.ItemsSource = Characters.All;
+        CharacterBox.SelectedItem = Characters.All.FirstOrDefault(c => c.Id == settings.SelectedCharacter) ?? Characters.All[0];
+        LoadCharacter();
+        GameBox.Text = settings.Game; ToolBox.Text = settings.Tool;
         Dialogue.IsChecked = settings.Categories.Contains(Category.Dialogue); Journal.IsChecked = settings.Categories.Contains(Category.Journal); Messages.IsChecked = settings.Categories.Contains(Category.Messages); UI.IsChecked = settings.Categories.Contains(Category.UI);
         AssignCategory.ItemsSource = new[] { Category.Dialogue, Category.Journal, Category.Messages, Category.UI }; AssignCategory.SelectedIndex = 0;
         ready = true; UpdateStatus();
@@ -29,8 +41,8 @@ public partial class MainWindow : Window
     private Toolchain Tool() => new(ToolBox.Text, Log);
     private void Save()
     {
-        settings.Name = NameBox.Text; settings.Game = GameBox.Text; settings.Tool = ToolBox.Text; settings.Categories = Categories();
-        if (index != null) settings.Excluded = index.Entries.Where(e => !e.Include && (Replacement.HasStandaloneV(e.Original) || e.Review.StartsWith("Source reviewed"))).Select(e => e.Identity).ToList();
+        StoreCharacter(); settings.Game = GameBox.Text; settings.Tool = ToolBox.Text; settings.Categories = Categories();
+        if (index != null) settings.Excluded = index.Entries.Where(e => !e.Include).Select(e => e.SelectionIdentity).ToList();
         try { Storage.Write(Config, settings); } catch (Exception e) { Log("Settings could not be saved: " + e.Message); }
     }
     private void Log(string text)
@@ -54,19 +66,20 @@ public partial class MainWindow : Window
     {
         var game = GameBox.Text; var tool = Tool();
         index = await Task.Run(() => new Scanner(tool, Path.Combine(data, "cache"), Path.Combine(AppContext.BaseDirectory, "reviewed.json"), Log).Scan(game, ct), ct);
-        foreach (var row in index.Entries) if (settings.Excluded.Contains(row.Identity)) row.Include = false;
         foreach (var approval in settings.Approvals)
         {
-            var row = index.Entries.FirstOrDefault(r => r.Resource == approval.Resource && r.Id == approval.Id && r.Field == approval.Field && Storage.Hash(r.Original) == approval.OriginalHash);
+            var row = index.Entries.FirstOrDefault(r => r.CharacterId == approval.CharacterId && r.Resource == approval.Resource && r.Id == approval.Id && r.Field == approval.Field && Storage.Hash(r.Original) == approval.OriginalHash);
             if (row != null) { row.Include = true; row.ReplaceFullNames = true; row.Category = approval.Category; row.Review = "User approved; not in-game verified"; }
         }
+        foreach (var row in index.Entries)
+            if (settings.Excluded.Contains(row.SelectionIdentity) || (row.CharacterId == "v" && settings.Excluded.Contains(row.Identity))) row.Include = false;
         build = null; Preview.ItemsSource = index.Entries; Refresh();
     });
     private async void GenerateClick(object sender, RoutedEventArgs e) => await Operation("Generating and validating archive…", async ct =>
     {
         if (index == null) throw new InvalidOperationException("Scan and review the replacements first.");
-        Preview.CommitEdit(); var game = GameBox.Text; var name = NameBox.Text; var categories = Categories(); var tool = Tool();
-        build = await Task.Run(() => new Builder(tool, Path.Combine(data, "builds"), Log).Build(game, index, name, categories, ct), ct);
+        Preview.CommitEdit(); StoreCharacter(); var game = GameBox.Text; var categories = Categories(); var tool = Tool();
+        build = await Task.Run(() => new Builder(tool, Path.Combine(data, "builds"), Log).Build(game, index, settings.Renames, categories, ct), ct);
         Log("Output: " + build.Archive);
     });
     private async void InstallClick(object sender, RoutedEventArgs e) => await Operation("Checking conflicts and installing…", async ct =>
@@ -83,14 +96,28 @@ public partial class MainWindow : Window
         if (!ready || index == null) return;
         string name;
         try { name = Replacement.ValidateName(NameBox.Text); } catch (Exception e) { Status.Text = e.Message; return; }
-        foreach (var row in index.Entries) row.Replacement = Replacement.Replace(row.Original, name, row.ReplaceFullNames);
+        foreach (var row in index.Entries.Where(r => r.CharacterId == SelectedCharacter)) row.Replacement = Replacement.ReplaceCharacter(row.Original, name, row.CharacterId, row.ReplaceFullNames);
         var categories = Categories(); var query = SearchBox.Text;
         var view = CollectionViewSource.GetDefaultView(Preview.ItemsSource);
-        view.Filter = o => o is Candidate c && (categories.Contains(c.Category) || (c.Category == Category.Unclassified && ShowUnclassified.IsChecked == true)) && (c.Original.Contains(query, StringComparison.OrdinalIgnoreCase) || c.Id.Contains(query) || c.Resource.Contains(query, StringComparison.OrdinalIgnoreCase) || c.SecondaryKey.Contains(query, StringComparison.OrdinalIgnoreCase));
+        view.Filter = o => o is Candidate c && c.CharacterId == SelectedCharacter && (categories.Contains(c.Category) || (c.Category == Category.Unclassified && ShowUnclassified.IsChecked == true)) && (c.Original.Contains(query, StringComparison.OrdinalIgnoreCase) || c.Id.Contains(query) || c.Resource.Contains(query, StringComparison.OrdinalIgnoreCase) || c.SecondaryKey.Contains(query, StringComparison.OrdinalIgnoreCase));
         view.Refresh();
-        CountText.Text = $"{index.Entries.Count(e => e.Include && categories.Contains(e.Category)):N0} selected / {index.Entries.Count:N0} candidates";
+        CountText.Text = $"{index.Entries.Count(e => e.CharacterId == SelectedCharacter && e.Include && categories.Contains(e.Category)):N0} selected for this character • {settings.Renames.Count(p => p.Value.Enabled)} characters enabled";
     }
-    private void NameChanged(object sender, TextChangedEventArgs e) { if (!ready) return; build = null; Refresh(); }
+    private void NameChanged(object sender, TextChangedEventArgs e) { if (!ready) return; RenameEnabled.IsChecked = true; StoreCharacter(); build = null; Refresh(); }
+    private void LoadCharacter()
+    {
+        var wasReady = ready; ready = false;
+        var c = Characters.Get(SelectedCharacter); var rename = settings.Renames[c.Id];
+        NameBox.Text = rename.Name; RenameEnabled.IsChecked = rename.Enabled;
+        AliasText.Text = "Matches: " + string.Join(", ", c.Aliases) + ". Review ambiguous names in context.";
+        ready = wasReady;
+    }
+    private void CharacterChanged(object sender, SelectionChangedEventArgs e)
+    {
+        if (!ready) return;
+        LoadCharacter(); settings.SelectedCharacter = SelectedCharacter; Detail.Text = ""; Refresh(); Save();
+    }
+    private void EnabledChanged(object sender, RoutedEventArgs e) { if (!ready) return; StoreCharacter(); build = null; Refresh(); Save(); }
     private void GameChanged(object sender, TextChangedEventArgs e) { if (!ready) return; index = null; build = null; Preview.ItemsSource = null; CountText.Text = "Installation/tool changed — scan again."; UpdateStatus(); }
     private void CategoryChanged(object sender, RoutedEventArgs e) { build = null; Refresh(); }
     private void FilterChanged(object sender, RoutedEventArgs e) => Refresh();
@@ -106,7 +133,7 @@ public partial class MainWindow : Window
     private void PersistApprovals()
     {
         if (index == null) return;
-        settings.Approvals = index.Entries.Where(c => c.Include && c.ReplaceFullNames && c.Category != Category.Unclassified && !c.Review.StartsWith("Source reviewed")).Select(c => new Reviewed(c.Resource, c.Id, c.Field, Storage.Hash(c.Original), c.Category, "User approved")).ToList();
+        settings.Approvals = index.Entries.Where(c => c.Include && c.ReplaceFullNames && c.Category != Category.Unclassified && (c.Review.StartsWith("User approved") || c.Review.StartsWith("Bulk approved"))).Select(c => new Reviewed(c.Resource, c.Id, c.Field, Storage.Hash(c.Original), c.Category, "User approved", c.CharacterId)).ToList();
     }
     private void SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
@@ -125,14 +152,23 @@ public partial class MainWindow : Window
     private void Cancel(object sender, RoutedEventArgs e) => cancellation?.Cancel();
     private void RestoreClick(object sender, RoutedEventArgs e)
     {
-        NameBox.Text = "Johnny"; Dialogue.IsChecked = Journal.IsChecked = Messages.IsChecked = UI.IsChecked = true;
+        ready = false; settings.Renames.Clear(); settings.Name = "Johnny"; Characters.Initialize(settings);
+        CharacterBox.SelectedItem = Characters.All[0]; LoadCharacter(); ready = true;
+        Dialogue.IsChecked = Journal.IsChecked = Messages.IsChecked = UI.IsChecked = true;
         settings.Excluded.Clear(); settings.Approvals.Clear(); if (index != null) new Scanner(Tool(), "", Path.Combine(AppContext.BaseDirectory, "reviewed.json"), Log).ApplyReview(index);
         build = null; Refresh(); Save(); Log("Default name, categories and review selections restored. Use Uninstall to remove an installed mod.");
     }
     private void ExportClick(object sender, RoutedEventArgs e)
     {
         if (index == null) return; var d = new SaveFileDialog { Filter = "JSON report|*.json", FileName = "replacement-preview.json" };
-        if (d.ShowDialog(this) == true) try { Storage.Write(d.FileName, index.Entries); Log("Preview exported to " + d.FileName); } catch (Exception ex) { Log(ex.Message); }
+        if (d.ShowDialog(this) == true) try
+        {
+            StoreCharacter();
+            var categories = Categories();
+            var rows = index.Entries.Where(c => c.Include && categories.Contains(c.Category) && settings.Renames[c.CharacterId].Enabled);
+            Storage.Write(d.FileName, rows.GroupBy(c => c.Identity).Select(g => new { g.First().Resource, g.First().Id, g.First().Field, g.First().Original, Replacement = Replacement.ReplaceMany(g.First().Original, g.Select(c => (c.CharacterId, settings.Renames[c.CharacterId].Name, c.ReplaceFullNames))), Characters = g.Select(c => c.CharacterId) }));
+            Log("Combined preview exported to " + d.FileName);
+        } catch (Exception ex) { Log(ex.Message); }
     }
     private void ApproveAllClick(object sender, RoutedEventArgs e)
     {
@@ -140,6 +176,7 @@ public partial class MainWindow : Window
         var categories = Categories();
         foreach (var c in index.Entries)
         {
+            if (c.CharacterId != SelectedCharacter) continue;
             if (c.Category == Category.Unclassified && categories.Contains(Category.UI)) { c.Category = Category.UI; c.Evidence += "; bulk approval: unclassified text assigned to UI"; }
             if (!categories.Contains(c.Category)) continue;
             c.Include = true;
@@ -147,6 +184,6 @@ public partial class MainWindow : Window
             if (!c.Review.StartsWith("Source reviewed")) c.Review = "Bulk approved; not context verified";
         }
         build = null; PersistApprovals(); Save(); Refresh();
-        Log("Bulk-approved candidates in enabled categories. Unrelated V/name references may be changed. Unclassified text assigned to UI.");
+        Log("Bulk-approved current character in enabled categories. Unrelated name references may change. Unclassified text assigned to UI.");
     }
 }
